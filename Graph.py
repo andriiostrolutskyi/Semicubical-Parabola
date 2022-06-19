@@ -111,6 +111,7 @@ if __name__ == "__main__":
     root.title('Парабола Нейля')
     root.geometry("500x250")
     root.resizable(False, False)
-    print('Add to main branch')
+    print('New feature')
+    print('Second feature')
     root.mainloop()
 
