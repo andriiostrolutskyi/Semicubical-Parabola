@@ -111,7 +111,7 @@ if __name__ == "__main__":
     root.title('Парабола Нейля')
     root.geometry("500x250")
     root.resizable(False, False)
-    print('New feature')
-    print('Second feature')
+    photo = tk.PhotoImage(file='Function-PNG.png')
+    root.iconphoto(False, photo)
     root.mainloop()
 
