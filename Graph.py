@@ -112,5 +112,6 @@ if __name__ == "__main__":
     root.geometry("500x250")
     root.resizable(False, False)
     print('New feature')
+    print('Second feature')
     root.mainloop()
 
