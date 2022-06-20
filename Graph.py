@@ -85,12 +85,13 @@ class Graph:
             plt.figure("Парабола Нейля")
             x = np.arange(float_domain1, float_domain2, float_step)
             y = float_parameter * np.power(x, 3 / 2)
+            plt.axhline(y=0, c="black", label="y=0")
+            plt.grid()
             plt.plot(x, y)
             plt.plot(x, -y)
             plt.show()
 
         button = tk.Button(root)
-        button["justify"] = "center"
         button["text"] = "Побудувати графік"
         button.place(x=170, y=200, width=140, height=36)
         button["cursor"] = "hand2"
