@@ -10,45 +10,37 @@ class Graph:
     def __init__(self, root):
 
         label1 = tk.Label(root)
-        label1["justify"] = "center"
         label1["text"] = "Парабола Нейля"
         label1.place(x=150, y=0, width=200, height=30)
         label1["font"] = tkFont.Font(size=16, weight='bold')
 
         label2 = tk.Label(root)
-        label2["justify"] = "center"
         label2["text"] = "y\u00B2 = a\u00B2x\u00B3"
         label2.place(x=210, y=40, width=80, height=25)
         label2["font"] = tkFont.Font(size=14, slant='italic')
         label2["fg"] = "#a40000"
 
         label3 = tk.Label(root)
-        label3["justify"] = "center"
         label3["text"] = "a ="
         label3.place(x=0, y=80, width=70, height=25)
 
         label4 = tk.Label(root)
-        label4["justify"] = "center"
         label4["text"] = "Діапазон ="
         label4.place(x=0, y=120, width=70, height=30)
 
         label8 = tk.Label(root)
-        label8["justify"] = "center"
         label8["text"] = "["
         label8.place(x=63, y=120, width=25, height=30)
 
         label5 = tk.Label(root)
-        label5["justify"] = "center"
         label5["text"] = ";"
         label5.place(x=120, y=120, width=42, height=30)
 
         label6 = tk.Label(root)
-        label6["justify"] = "center"
         label6["text"] = ")"
         label6.place(x=170, y=120, width=70, height=25)
 
         label7 = tk.Label(root)
-        label7["justify"] = "center"
         label7["text"] = "Крок ="
         label7.place(x=0, y=160, width=70, height=25)
 
